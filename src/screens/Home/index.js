@@ -5,7 +5,7 @@ import { ButtonInteractive, Circle, Container, DescriptionHeader, Header, SubCon
 
 const Home = () => {
   const { width, height } = Dimensions.get('window');
-  const circleSize = Math.min(width, height) * 0.8
+  const circleSize = Math.min(width, height) * 0.8;
 
   const [cronAtivo, setCronAtivo] = useState(false);
   const [seconds, setSeconds] = useState(0);
