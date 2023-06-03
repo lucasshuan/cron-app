@@ -43,7 +43,7 @@ yarn tunnel
   <tr>
     <td align="center">
       <a href="http://github.com/nobeluc/">
-        <img src="https://avatars.githubusercontent.com/u/52439569?v=4" width="75px;" alt="Nobeluc"/>
+        <img src="https://avatars.githubusercontent.com/u/78228526?v=4" width="75px;" alt="Nobeluc"/>
         <br />
         <sub>
           <b>Jean Rocha</b>
