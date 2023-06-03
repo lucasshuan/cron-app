@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import { Dimensions, View } from 'react-native'
+import React, { useState, useEffect, useRef } from 'react';
+import { Dimensions, View } from 'react-native';
+import { Audio } from 'expo-av';
 import { ButtonInteractive, Circle, Container, DescriptionHeader, Header, SubContainer, SubContainerButtons, SubContainerCircle, TitleButton, TitleHeader, TitleTime } from './styles';
 
 const Home = () => {
@@ -10,6 +11,24 @@ const Home = () => {
   const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [alteredInterval, setAlteredInterval] = useState(0);
+
+  const soundRef = useRef(null);
+
+  useEffect(() => {
+    const loadSound = async () => {
+      const { sound } = await Audio.Sound.createAsync(
+        require('../../utils/beep.mpeg')
+      );
+      soundRef.current = sound;
+    };
+    loadSound();
+    return () => {
+      // Remove o som, ao sair da tela
+      if (soundRef.current) {
+        soundRef.current.unloadAsync();
+      }
+    }
+  }, [])
 
   function Start() {
     setAlteredInterval(
@@ -34,6 +53,10 @@ const Home = () => {
   }
 
   function Update() {
+    if (soundRef.current) {
+      soundRef.current.replayAsync();
+    }
+
     setSeconds(prev => {
       if (prev + 1 == 60) {
         setMinutes(min => min + 1);
@@ -46,7 +69,9 @@ const Home = () => {
   return (
     <Container>
       <SubContainer>
+
         <View />
+
         <Header>
           <TitleHeader>
             CronApp
