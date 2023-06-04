@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img href="https://www.youtube.com/@metalcodebr/" alt="Metalcode" height="72" title="Metalcode" src="./.github/logo2.png" />
+   <img href="https://www.youtube.com/@metalcodebr/" alt="Metalcode" height="168" title="Metalcode" src="./.github/logo2.png" />
 </h1>
 
 <p align="center">
