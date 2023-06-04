@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img href="https://www.youtube.com/channel/UC4IOuH99CdKBPydv7CW8Tdg" alt="Metalcode" height="48" title="Metalcode" src="./.github/logo2.png" />
+   <img href="https://www.youtube.com/@metalcodebr/" alt="Metalcode" height="48" title="Metalcode" src="./.github/logo2.png" />
 </h1>
 
 <p align="center">
@@ -36,9 +36,6 @@ yarn tunnel
 
 ## :man_technologist: Author
 
-<div align="center">
- <p>Developed by Jean Rocha</p>
-<div>
 <table>
   <tr>
     <td align="center">
@@ -54,7 +51,7 @@ yarn tunnel
 </table>
 </div>
 
-[![Youtube Badge](https://img.shields.io/badge/-Metalcode-FF0000?style=flat-square&labelColor=FF0000&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UC4IOuH99CdKBPydv7CW8Tdg)](https://www.youtube.com/channel/UCgg16Rkdisznb1au1QgqjPA)
-[![Linkedin Badge](https://img.shields.io/badge/-William%20Gomes-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/william-gomes-aab694149/)](https://www.linkedin.com/in/lucrocha2/)
+[![Youtube Badge](https://img.shields.io/badge/-Noven-FF0000?style=flat-square&labelColor=FF0000&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UC4IOuH99CdKBPydv7CW8Tdg)](https://www.youtube.com/channel/UCgg16Rkdisznb1au1QgqjPA)
+[![Linkedin Badge](https://img.shields.io/badge/-Jean%20Rocha-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucrocha2/)](https://www.linkedin.com/in/lucrocha2/)
 
 </div>
